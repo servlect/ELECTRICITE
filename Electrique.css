@@ -1,0 +1,173 @@
+:root{
+    background-size: cover;
+    font-size: 20px;
+    background-repeat: no-repeat; 
+    background-position:center; 
+    background-attachment: fixed;
+    background-image: url('elect.jpeg'); 
+    color:white;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Toute la hauteur de l'écrant*/
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+header{
+    /* display: none;  caché sur les ordinateurs*/
+    flex-direction: column;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width:100%;
+    height:400px;
+    background-image: url('electphenonmen.jpeg');  
+    background-size: 900px;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+.brand{
+   display: flex;
+   width:100%;
+   height:400px; 
+}
+
+
+.logo-image{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px; 
+    margin-left:40%;
+    margin-top: -30px;
+}
+
+
+.tagline{
+ margin-top:-20px;
+}
+
+.language-selector{
+    display: flex;
+    justify-content: right;
+    margin-top: -110px;
+
+    
+}
+
+
+.auth-button{
+    display: flex; /* pour aligner les deux boutons sur une ligne*/
+    gap: 10px; /*Espace entre les deux boutons  */
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;/* Enleve le soulignement des liens  */
+    border-radius: 30px;/*Arrondir les coins */
+    font-weight: bold;
+    transition: 0.3s; /*Annimation douce au survol */
+}
+
+
+
+/* STYLE SPEFICIQUE POUR CONNEXION (discret) */
+.btn-login{
+    color:white; /* un bleu de mon logo*/
+    border: 2px solid #003399;
+    background-color: #003399;
+}
+
+.btn-signup{
+    background-color: #003399;
+    color: white;
+    border: 2px solid #003399;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    transform:scale(1.05);
+}
+.serv:hover{
+    opacity: 0.8;
+    transform:scale(1.05) 
+}
+.serv{
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dih{
+    max-width: auto; 
+    max-height: 500px;
+
+}
+
+
+/* fin header */
+
+.services{
+    background-repeat: no-repeat;
+    font-weight: bold;
+    display: inline-block;
+    height: 100%;margin-top: 200px;
+
+
+}
+
+
+.formations{
+    background-image: url('informatique_embarqué.jpeg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    height: auto; 
+    width:auto;
+    font-size: 100%;
+    font-family: white; 
+    backface-visibility: initial;
+    color: white;
+}
+
+
+/* partie footer */
+.NAV{
+    
+    display:flex;
+    justify-content: right;
+    
+    
+    
+    
+}
+.afg{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition:0.3s;
+
+}
+.afg:hover{
+   opacity:0.8 ;
+   transform:scale(1.05); 
+}
+
+.arr{
+    transition: 1.8em;
+    opacity:3;
+    transform:scale(1.06);
+}
+.agg{
+    display:block;
+}
+

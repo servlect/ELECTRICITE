@@ -1,0 +1,46 @@
+:root{
+    background-color:rgb(17, 44, 94);
+}
+
+h1{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: bisque;
+    display:block;
+
+}
+h2{
+    color: coral;
+    padding-left: 10px;
+}
+h3{
+    color: coral;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+    display: inline-block;
+    text-shadow: 2px 2px 4px rgba(0, 0,0, 1);
+}
+img{
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+    display:inline;
+}
+
+div.tab{
+    padding-left: 40px;
+}
+.tab1{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 0;
+    color: coral;
+    
+   
+}
+.tab2{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 0;
+    color: coral;
+}

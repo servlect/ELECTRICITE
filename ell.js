@@ -1,0 +1,1 @@
+alert("bravo, le JavaScript est bien connecté ! ");

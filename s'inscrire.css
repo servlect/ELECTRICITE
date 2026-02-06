@@ -1,0 +1,16 @@
+:root{
+    background-color:rgb(190, 199, 206);
+}
+
+.button{
+    display: flex;
+    opacity: 0.8;
+    
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 2px;
+    border-color: aqua;
+    transform:scale(2.0);
+    transition:0.3s ease;
+
+}

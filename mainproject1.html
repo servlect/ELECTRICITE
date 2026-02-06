@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--encodage de caracteres universel, pour que les symboles et les accents , ainsi que autres choses puissent bien s'afficher-->
+        <title>DNZ SERVICES</title> <!--Titre du site, qui apparait  dans l'onglet du navigateur , resultats google, favoris. pour le caracteres il faut aumoins 50 à 60 caracteres -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive design-->
+        <meta name="author" content="Sam Nzam"> <!--c'est optionnel et utile pour des sites pros, portfolios-->
+        <meta name="description" content="Entreprise spécialisée en ingénierie, programmation et systèmes embarqués en RDC."><!-- afficher sous le lien google , Améliorer le taux de clic , bonne pratique  150 à 160 caracteres -->
+        <meta name="robots" content="index, follow"> <!--balises seo avancée version pro-->
+        <meta name="keywords" content="technologie, programmation, RDC"><!--balises seo avancée version pro, cette ne guerre utilisée de nos jours -->
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon"><!-- icone du site, afficher dans l'onglet navigateur-->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> <!--Polices externes (ex: Google Fonts) -->
+
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="mproject1.css"> <!--lien du fichier CSS-->
+       
+    
+    </head>
+
+    <body>
+        <header>
+
+        
+            <h1><b> <i>WELLCOME TO DNZ CENTER </i></b></h1>
+              <audio autoplay controls>
+                <source src="DNZ FR.mp3" type="audio/mpeg">
+            AUDIO DNZ
+            </audio>
+            <div class="brand">
+                <img class="logo-image" src="LOGO.png" alt="DNZ COMPANY">
+                <p class="tagline"> Nous c'est la téchnologie et le busness </p>
+            </div class="FORMAV">
+                <div>
+                    <nav class="NAV">
+                        <ul>
+                            <li><a href="#home">Acceuil</a></li>
+                            <li class="lico"><a href="#Contact">Contact</a></li>
+                    
+                    
+                        </ul>
+                    </nav>
+                <form class="FORM" action="/search">
+                    <input type="search" placeholder="Rechercher...">
+                </form>
+            </div>
+            <div class="auth-button">
+               <a href="#" class="btn btn-login">Connexion</a>
+                <a href="#" class="btn btn-signup">S'inscrire</a>   
+            </div>
+            <div class="language-selector">
+                <span class="icon"></span>
+                <select id="lang" name="language">
+                    <option value="fr" selected>Français</option>
+                    <option value="en" >English </option>
+                    <option value="ln"> Lingala</option>
+                </select>
+            </div>
+
+        </header>
+
+
+        <section class="section-body">
+            <p>DNZ company est une <b>Entréprise</b> comme le nom l'indique , cette société est basée sur la téchnologie et le , dont en gros nous  dirons , le busness et formation , ainsi que l'entreprise en MV 
+            </p>
+            <h2>NOS FORMATIONS</h2>
+            <ol>
+            <li><a class="a" href="">système embarqué avec arduinon uno , esp32 et Rasberry pi</a></li>
+            <li><a class="a"  href="">robotique bas niveau</a></li>
+            <li><a class="a"  href="">développement web full-stack</a></li>
+            <li><a class="a"  href="">apprendre python niveau débutant</a></li>
+            <li><a class="a"  href="">la création d'une interface SCADA avec Rasberry pi</a></li>
+            <li><a class="a"  href="">l'anglais pour mieux se sentir à l'aise dans la suite de temps</a></li>
+
+                <!--li doit contenir a , pas a contenir li-->
+            </ol>
+            <h3>AUTRES ACTIVITES</h3>
+            <p>Pour plus de détails sur le busness et autres choses veuillez cliquer sur le lien ci-dessous afin  de voir nos offres et promotion de prix du busness ainsi que de nouveauté dans notre entréprise , <b>surtout nos inventions</b></p>
+            <a href="main.project.html">cliquer ici</a>
+
+
+        </section>
+        <section class="section-video">
+            <video class="video"  controls poster="IOT.jpg">
+                <source src="carte arduino presentation1.mp4"type="video/mp4">
+                <track src="sous-titre.vtt" kind="subtitles " srclang="fr" label="Français" default>
+            </video>
+            <video class="video"  controls poster="IOT.jpg">
+                <source src="carte arduino presentation2.mp4"type="video/mp4">
+                <track src="sous-titre.vtt" kind="subtitles " srclang="fr" label="Français" default>
+            </video>
+          
+        </section>
+            <h4> <b><i>INFORMATIONS PERSONNELLES </i></b></h4>
+            <p>veuillez remplir le formulaire suivant pour vous inscrire sur notre page web</p>
+                <form action="exo2.html"
+                    method="POST">
+                    <label for ="nom">Nom :</label> 
+                    <input type="text"  id="nom"
+                    name="user_name">
+                    <label for="email">Email :</label>
+                    <input type="email" name="user_email" id="email">
+                    <button type="submit"> Envoyer mon message</button>
+
+                </form>
+
+
+            <footer class="site-footer">
+                <div class="footer-content">
+                    <section class="footer about">
+                        <h4> Ma marque</h4>
+                        <p>Création d'experiences web depuis 2024.</p>
+                        
+                    </section>
+                    <nav class="footer-links">
+                        <ul>
+                            <li> <a href="mentions.html">Mentions Légales</a></li>
+                            <li>  <a href="politique.html">politique de confidentialités</a></li>
+                            <li> <a href="politique de cookies.html">politique de cookies</a></li>
+                            <li> <a href="conditon.html">Condition générales</a></li>
+                            
+                        </ul>
+                        
+                    </nav>
+                    <div class="footer-socials">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 -Tous droits réservés.</p>
+                </div>
+            </footer>
+        
+            
+    </body>
+
+</html>

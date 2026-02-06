@@ -1,0 +1,194 @@
+:root{
+    background-color:rgb(190, 199, 206);
+
+}
+body{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Toute la hauteur de l'écrant*/
+    font-family: 'Inter', sans-serif;
+
+}
+
+header{
+    display:flex;
+    justify-content: flex-start; /* aligne tout vers la gauche*/
+    align-items: center; /* Centre verticalement le logo et le slogan*/
+    padding: 5px;
+    background-color: #ffffff;/*fond blanc pour le header*/
+    border-bottom: 1px solid #ddd;/*Une petite ligne de séparation*/
+    margin: 10px;
+}
+
+/* Le groupe Logo + Slogan */
+.brand{
+    display: flex;
+    flex-direction: column;/* Slogan sous le logo */
+    align-items: center;/*centre le slogan par rapport  au logo */
+}
+
+/* On réduit la taille de votre image GIMP ici */
+.logo-image{
+    width: 150px;/* Ajustez ce nombre selon vos gouts */
+    height: auto;
+}
+
+/* On stylise le slogan pour qu'il soit plus discret  */
+.tagline{
+    margin-top: 5px ;
+    font-size: 12px;
+    font-weight: bold;
+    color: #003399;
+    text-align: center;
+}
+
+.NAV{
+    padding-left: 20px;
+}
+
+.FORM{
+    padding-left: 20px;
+
+}
+
+
+.lico{
+    padding-top: 10px;
+}
+
+
+.FORMAV{
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 10px;
+}
+
+
+.auth-button{
+    display: flex; /* pour aligner les deux boutons sur une ligne*/
+    gap: 10px; /*Espace entre les deux boutons  */
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;/* Enleve le soulignement des liens  */
+    border-radius: 30px;/*Arrondir les coins */
+    font-weight: bold;
+    transition: 0.3s; /* Annimation douce au survol*/
+}
+
+
+
+/* STYLE SPEFICIQUE POUR CONNEXION (discret) */
+.btn-login{
+    color:#003399; /* un bleu de mon logo*/
+    border: 2px solid #003399;
+
+}
+
+
+
+
+/* STYLE SPEFICIQUE POUR S'INSCRIRE (bien visible) */
+.btn-signup{
+    background-color: #003399;
+    color: white;
+    border: 2px solid #003399;
+}
+
+
+
+
+/*EFFET AU SURVOL DE LA SOURIS*/
+.btn:hover{
+    opacity: 0.8;
+    transform: scale(1.05); /* Grossit légèrement*/
+}
+
+
+
+
+.language-selector{
+    display: flex;
+    align-items:center ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+
+
+
+.language-selector select{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+}
+
+
+
+
+/* on change un peu la couleur au survol */
+.language-selector:hover{
+    background-color: #e0e0e0;
+}
+
+
+
+
+.section-body{
+
+    padding: 40px;
+    /* background-color: #1d858b;fond blanc pour le header */
+    background-image:  url('droneMV.jpeg');
+    /* Pourque l'image couvre tout l'écran sans se répéter  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll; /*l'image reste fixe lors du défilement*/
+    background-position: center;
+    color:gold;
+}
+
+
+
+.section-video{
+    display: flex;/*active l'alignement horizontal*/
+    gap: 20px; /*crée un espace entre le deux vidéos*/
+    justify-content: center;/*Centre les vidéos sur la page*/
+    flex-wrap: wrap;/*permet de passer l'une sous l'autre sur mobile*/
+    padding: 20px;
+    max-width:800px;
+    margin: 20px auto;
+    border-radius: 15px; /*coins arrondis*/
+    overflow: hidden; /*pour que la vidéo suive l'arrondi du cadre  */
+    box-shadow: 0 10px 30px rgba(0,0,0.3);/* Ombre élégante  */
+    transition: transform 0.3s ease;
+}
+
+.video:hover{
+    transform: scale(1.02);/*Effet de zoom léger au survol*/
+}
+.video{
+     min-width: 300px;
+     width: 50%; 
+     display: block;
+}
+
+main{
+    flex: 1;   /* Pousse le footer vers le bas*/
+}
+
+
+
+a{
+    color: black;
+}

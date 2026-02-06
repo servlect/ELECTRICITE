@@ -1,0 +1,10 @@
+/* ::grammar-error{
+    
+} */
+:root{
+    background-color: chocolate;
+}
+.videoarduino{
+    width: 100px;
+    height: 100px;
+}

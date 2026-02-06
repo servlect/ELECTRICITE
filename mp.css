@@ -1,0 +1,44 @@
+/*CAS GENERALE*/
+:root{
+    background-color:lightslategrey;
+}
+
+body{
+color: azure;
+color: black;
+}
+h1{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: coral;
+    display:block;
+
+}
+h2{
+    color: coral;
+    padding-left: 10px;
+    display: inline-block;
+    border-bottom: 3px;
+    border-radius: 10%;
+}
+img{
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+    display:inline;
+}
+
+
+.tab1{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 0;
+    color: coral;
+   
+}
+.tab2{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 0;
+    color: coral;
+}
